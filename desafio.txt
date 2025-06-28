@@ -1,0 +1,7 @@
+Desafio 
+
+Monte uma página em HTML (usando HTML semântico)
+de login de uma conta com email e senha 
+
+Monte uma página HTML (usando HTML semântico) 
+de registro de uma nova conta, deve ter: nome, CPF, email, senha e confirmação de senha
