@@ -1,14 +1,27 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cadastro de conta</title>
 </head>
 <body>
-    <H1>CRIE UMA CONTA</H1>
-    <form action="">
-        
+    <H1>CADASTRO</H1>
+    <p>Informe seus dados para criação da conta:</p>
+    <form action="" method="get">
+        <fieldset>
+            <legend>Dados do Usuário</legend>
+            Nome: <input type="text" name="nome" required ><br>
+            CPF: <input type="number" name="cpf" required ><br>
+            E-mail: <input type="email" name="email" placeholder="exemplo.@gmail"><br>
+            Senha: <input type="text" name="senha" ><br>
+            Confirme sua senha: <input type="text" name="confirmacao" required><br>
+        </fieldset><br>
+       
+       <button type="submit">Salvar</button>
     </form>
+    <p>Possui uma conta?<br>
+        <a href="http://127.0.0.1:5500/Login.html">Entrar</a>
+    </p>
 </body>
 </html>
